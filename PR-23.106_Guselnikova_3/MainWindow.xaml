@@ -1,0 +1,19 @@
+﻿<Window x:Class="PR_23._106_Guselnikova_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR_23._106_Guselnikova_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="Гусельникова А.Б. Вариант 3" HorizontalAlignment="Center" FontSize="30" Margin="10"/>
+        <TextBlock Text="Введите предложение на английском:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,60,0,0"/>
+        <TextBox Name="InputTextBox" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,80,0,0"/>
+        <Button Content="Рассчитать" Width="100" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,110,0,0" Click="Button_Click"/>
+        <TextBlock Text="Количество гласных:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,150,0,0"/>
+        <TextBox Name="VowelsCountTextBox" Width="100" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,170,0,0" IsReadOnly="True"/>
+        <TextBlock Text="Самое длинное слово:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15" Margin="0,200,0,0"/>
+        <TextBox Name="LongestWordTextBox" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,220,0,0" IsReadOnly="True"/>
+    </Grid>
+</Window>
